@@ -1,0 +1,16 @@
+{
+  "name": "dsd-pubsub-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "run:broker": "node src/broker.js",
+    "run:pub-ene": "node src/publisher.js ENE3",
+    "run:pub-mob": "node src/publisher.js MOB1",
+    "run:sub-ene": "node src/subscriber.js ENE3",
+    "run:sub-mob": "node src/subscriber.js MOB1"
+  },
+  "dependencies": {
+    "ws": "^8.17.1"
+  }
+}
